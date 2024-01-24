@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    padding: 0 1rem;
+  }
+  
+  .hero {
+    background-image: url('OIP.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background-color: #ffb347;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .menu,
+  .reservations,
+  .contact {
+    padding: 4rem;
+    text-align: center;
+  }
+  
+  .menu h2,
+  .reservations h2,
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
